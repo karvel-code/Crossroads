@@ -5,6 +5,7 @@ class HomePage extends React.Component {
         return (
             <div>
                 <h1>Github Commits</h1>
+                <p>Commits include</p>
             </div>
         )
     } 
