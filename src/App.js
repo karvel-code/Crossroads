@@ -2,10 +2,11 @@
 // import './App.css';
 import Main from "./components/Main";
 import Header from "./components/header";
+import "../src/main.css";
 
 function App() {
   return (
-    <div>
+    <div className="page-font">
       <Header />
       <Main />
     </div>
