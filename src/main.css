@@ -3,3 +3,30 @@
 .page-font {
     font-family: 'Andika', sans-serif;
 }
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-contents {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    width: 30%;
+    margin-left: 5%;
+}
+
+.logoIMage {
+    width: 50px;
+    height: 50px;
+}
+
+.reactFacts {
+    font-weight: 600;
+}
+
+.reactHead {
+    margin-right: 5%;
+}
