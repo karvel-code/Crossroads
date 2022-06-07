@@ -6,7 +6,8 @@ class Header extends React.Component {
         return(
             <div>
                 <img src={ReactLogo} />
-                <h1>Navbar goes in here</h1>
+                <h1>React Facts</h1>
+                <h4>React Course - Project 1</h4>
             </div>
         )
     }
