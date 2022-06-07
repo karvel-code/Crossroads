@@ -1,5 +1,10 @@
 /* @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext'); */
 
+body {
+    height: 100vh;
+    background-color: #282D35;
+}
+
 .page-font {
     font-family: 'Andika', sans-serif;
 }
@@ -11,6 +16,8 @@
     background-color: #21222A;
     padding-top: 2%;
     padding-bottom: 2%;
+    /* width: 105%; */
+    margin-top: 0;
 }
 
 .nav-contents {
@@ -36,20 +43,27 @@
     color: #DEEBF8;
 }
 
-.mainPage {
+/* .mainPage {
     background-color: #282D35;
     height: 800px;
     padding: 2%;
-}
+} */
 
 .mainTitle {
     margin-top: 0;
     color: white;
     margin-left: 3%;
+    padding-top: 3%;
 }
 
 .listUl {
     color: white;
     margin-left: 3%;
     line-height: 250%;
+    font-size: 20px;
+}
+
+.listUl > li::marker {
+    font-size: 1.9rem;
+    color: #61DAFB;
 }
