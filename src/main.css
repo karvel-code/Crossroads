@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #21222A;
 }
 
 .nav-contents {
@@ -25,8 +26,10 @@
 
 .reactFacts {
     font-weight: 600;
+    color: #61DAFB;
 }
 
 .reactHead {
     margin-right: 5%;
+    color: #DEEBF8;
 }
